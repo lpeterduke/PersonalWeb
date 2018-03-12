@@ -1,0 +1,51 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 300px; /* Add a top margin to avoid content overlay */
+}
+
+
+* { margin:0;padding:0; }
+body { background:#E9EEF5; }
+
+ul {
+  list-style-type:none;
+  width:900px;
+  margin:10px auto 0;
+}
+
+li {
+  margin:0 10px;
+  display:inline-block;
+}
+
+div {
+  font:20pt 'Georgia';
+  height:50px;
+  width:674px;
+  margin:20px auto 0;
+  text-align:center;
+}
