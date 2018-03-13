@@ -21,6 +21,8 @@ if($command == "/resume"){
 
 }elseif($command == "/contact"){
 	include 'Contact.html';
+}elseif($command == "/orange"){
+	include 'orange.html';
 }else{
 	include 'InvalidCom.html';
 }
