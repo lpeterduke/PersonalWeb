@@ -1,6 +1,7 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -47,5 +48,11 @@ div {
   height:50px;
   width:674px;
   margin:20px auto 0;
-  text-align:center;
 }
+h1{
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+
