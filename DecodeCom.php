@@ -4,20 +4,36 @@
 
 <?php 
 $command = $_POST["command"];
-if($command == "/resume"){
-	include 'resume.html';
+$version = $_POST["version"];
 
-}elseif($command == "/workExp"){
+//echo $command;
+//echo $version; 
+
+
+if($version == "fun"){
+	include 'FunNavBar.html';
+}else{
+	include 'EasyNavBar.html';
+}
+
+
+if($command == "/resume"){
+	include 'Resume.html';
+
+}elseif($command == "/workexp"){
 	include 'WorkExp.html';
 
-}elseif($command == "/relProj"){
+}elseif($command == "/home"){
+	include 'index.html';
+
+}elseif($command == "/relproj"){
 	include 'RelProj.html';
 
 }elseif($command == "/play"){
 	include 'ExtraCur.html';
 
-}elseif($command == "/eVersion"){
-	include 'Home.html';
+}elseif($command == "/eversion"){
+	include 'eVersion.html';
 
 }elseif($command == "/contact"){
 	include 'Contact.html';
